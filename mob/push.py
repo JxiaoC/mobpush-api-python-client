@@ -80,6 +80,8 @@ class push():
             panel['scheme'] = scheme
         if data is not None:
             panel['data'] = data
+        if iosProduction is not None:
+            panel['iosProduction'] = iosProduction
         return panel
 
     # 设置推送范围 
